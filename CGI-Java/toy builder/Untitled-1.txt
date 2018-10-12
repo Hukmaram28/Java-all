@@ -1,0 +1,32 @@
+package com.company;
+
+public class Toybuilder {
+    public static void main(String arg[]) {
+        Toybuilder Car = new Toybuilder();
+        Toybuilder Train = new Toybuilder();
+        Toybuilder Plane = new Toybuilder();
+    }
+
+    class toy {
+        private int price;
+        public String color;
+    }
+
+    class Train extends toy {
+        void move() {
+
+        }
+    }
+
+    class Car extends toy {
+        void move() {
+
+        }
+    }
+
+    class Plane extends toy {
+        void fly() {
+
+        }
+    }
+}

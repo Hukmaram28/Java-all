@@ -1,0 +1,4 @@
+com\stackroute\model\User.class
+com\stackroute\configuration\UserInitializer.class
+com\stackroute\configuration\UserConfiguration.class
+com\stackroute\controller\UserController.class
